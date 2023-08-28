@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+}
+nav{
+    text-align: center;
+    background-color: darkolivegreen;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+   ul li {
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px;
+    color: black;
+}
+#animal{
+    display: flex;
+}
+
+.a img {
+    flex: 10;
+}
+
+.b img {
+    flex: 10;
+}
+
+.c img {
+    flex: 10;
+}
+
+.d img {
+    flex: 10;
+} 
+h1{
+    text-align: center;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    text-align: center;
+    color: rgb(95, 74, 74);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#animal img{
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+}
+#ss{
+    display: flex;
+}
+.sp {
+    flex:50%;
+}
+.sn {
+    flex:50%;
+}
+#ss img {
+    width: 100%;
+    height: 250px;
+}
+#ss p{
+    padding: 10px;
+    font-size: large;
+    font-family: cursive;
+}
+
+#gm {
+    display: flex;
+}
+
+.map {
+    flex: 50%;
+}
+
+.reg {
+    flex: 50%;
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+.reg h2{
+    color: darkmagenta;
+    font-size: xx-large;
+}
+
+table,td,th{
+    margin: auto;
+    padding: 10px;
+    font-family: sans-serif;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: larger;
+}
+
+span {
+    color: rgb(80, 255, 220);
+    text-decoration: underline;
+}
